@@ -36,6 +36,7 @@ import chatApp from './assets/work_logo/chat_app.png';
 import portfolioLogo from './assets/work_logo/portfolio.png';
 import geminiClone from './assets/work_logo/gemini_clone.png';
 import DreamPixels from './assets/work_logo/DreamPixels.png';
+import VoiceMate from './assets/work_logo/VoiceMate.png';
 
 
 export const SkillsInfo = [
@@ -143,6 +144,17 @@ export const SkillsInfo = [
 
     {
       id: 2,
+      title: "VoiceMate",
+      description:
+        "VoiceMate is a full-stack, AI-powered virtual assistant built using the MERN stack. It allows users to perform tasks through voice commands, such as opening websites (Google, YouTube, Facebook, Instagram), launching apps (Calculator), and answering general questions. With an intuitive UI and secure authentication, VoiceMate provides a seamless and interactive experience.",
+      image: VoiceMate,
+      tags: ["JavaScript", "React JS", "Node JS", "Express JS", "JWT", "MongoDB", "Tailwind CSS" , "Framer Motion", "Web Speech API"],
+      github: "https://github.com/Victory-Seeker/VoiceMate",
+      webapp: "https://voicemate-ai6m.onrender.com/",
+    },
+
+    {
+      id: 3,
       title: "Personal Portfolio",
       description:
         "A fully responsive and modern portfolio website showcasing my skills, projects, education. Built using React and Tailwind CSS, it reflects my expertise in frontend development and UI/UX design. The site features smooth animations and a clean layout to provide a seamless browsing experience.",
@@ -153,7 +165,7 @@ export const SkillsInfo = [
     },
 
     {
-      id: 3,
+      id: 4,
       title: "Gemini Clone",
       description:
         "A functional clone of Google’s Gemini chatbot, built using the Gemini free API. This real-time AI assistant mimics conversational capabilities, enabling users to ask questions, get contextual responses, and interact just like a smart AI chatbot. The project demonstrates integration with external APIs and real-time user input handling with a clean, minimal UI.",
@@ -164,7 +176,7 @@ export const SkillsInfo = [
       webapp: "https://gemini-clone-swart-nu.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       title: "Trivia Quiz App",
       description:
         "An interactive quiz application that fetches questions dynamically from the Open Trivia Database API (OpenTDB). Users can test their knowledge across various categories and difficulty levels, receiving immediate feedback for each question. The app ensures a smooth user experience with intuitive design and seamless API integration.",
@@ -174,7 +186,7 @@ export const SkillsInfo = [
       webapp: "https://trivia-quiz-app-hazel.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "Scientific Calculator",
       description:
         "A powerful and intuitive scientific calculator application designed to perform a wide range of complex mathematical operations beyond basic arithmetic. Users can compute trigonometric functions like sin, cos, tan, logarithmic calculations, exponentials, and more—all in a sleek and responsive interface.",
